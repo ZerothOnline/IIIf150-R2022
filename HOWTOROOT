@@ -1,0 +1,20 @@
+Hello welcome to this root tutorial of the IIIF150 R2022!
+WARNING YOU WILL VOID YOUR WARRENTY!
+UNLOCK THE BOOTLOADER FIRST!
+1. first download the STOCK os: https://firmwarefile.com/iiif150-r2022
+2. download magisk on your device.
+3. copy boot.img to your device.
+4. follow the steps on magisk. choose the boot.img and let it patch.
+5. put the file on your LINUX pc (windows is possible but it sucks)
+6. put your device in fastboot mode! NOT FASTBOOTD 
+7. on pc type: fastboot flash boot magiskbootimgname.img
+8. YOUR NOT DONE!!!!!!!!!!
+--------------
+1. type these commands:
+fastboot --disable-verity --disable-verification flash vbmeta (vbmeta file name you have download with the stock rom) click enter
+fastboot --disable-verity --disable-verification flash vbmeta_system (vbmeta_system file name you have download with the stock rom) click enter
+fastboot --disable-verity --disable-verification flash vbmeta_vendor vbmeta_vendor.img (vbmeta_vendor file name you have download with the stock rom) click enter
+ ---------------------------------------------
+ YOUR NOW DONE.
+ 
+ IT IS POSSIBLE THAT IT DOES NOT WORK THE FIRST TIME IF IT IS STUCK ON BOOTING REFLASH MAGISK BOOT IMG
